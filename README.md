@@ -21,7 +21,7 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 * Run the shell scripts(`bash run.sh`)
 
 ## Results
-* Here we provide the results of the above two examples under the `./runs` directory.
+* Here we provide the training process and results of the above two examples under the `./runs` directory.
 
 
 
