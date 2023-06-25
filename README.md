@@ -1,8 +1,8 @@
 # GODERN
 The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for Multi-Channel Time Series Forecasting".
 
-    
-![image](structure.png)
+
+![image](./pics/structure.png)
 
 ## Dependencies
 > numpy==1.19.2
@@ -22,3 +22,5 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 
 ## Results
 * Here we provide the results of the above two examples under the `./runs` directory.
+
+![image](./pics/mul_hor_1.png)![image](./pics/mul_hor_2.png)![image](./pics/mul_hor_3.png)
