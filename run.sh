@@ -1,0 +1,1 @@
+cd model && python run.py --dataset=PEMS04 --model=gode_rnn --model_type=graph --embed_dim=10 --hid_dim=128 --hid_hid_dim=128 --num_layers=3 --lr_init=0.001 --weight_decay=1e-3 --epochs=200 --missing_test=False --missing_rate=0.1 --tensorboard --device=0
