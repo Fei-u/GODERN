@@ -27,7 +27,6 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 
 
 <figure>
-<img src="./pics/mul_hor_1.png" width=100/>
-<img src="./pics/mul_hor_2.png" width=100/>
-<img src="./pics/mul_hor_3.png" width=100/>
+<img src="./pics/mul_hor_1.png" width=100/><img src="./pics/mul_hor_2.png" width=100/><img src="./pics/mul_hor_3.png" width=100/>
 </figure>
+
