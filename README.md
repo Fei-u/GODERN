@@ -24,14 +24,10 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 * Here we provide the results of the above two examples under the `./runs` directory.
 
 
-<tr>
-        <td ><center><img src="./pics/mul_hor_1.png"></center></td>
-        <td ><center><img src="./pics/mul_hor_2.png"></center></td>
-        <td ><center><img src="./pics/mul_hor_3.png"></center></td>
-</tr>
 
-<!-- <figure>
-<img src="./pics/mul_hor_1.png" width=200/>
-<img src="./pics/mul_hor_2.png" width=200/>
-<img src="./pics/mul_hor_3.png" width=200/>
-</figure> -->
+
+<figure>
+<img src="./pics/mul_hor_1.png" width=100/>
+<img src="./pics/mul_hor_2.png" width=100/>
+<img src="./pics/mul_hor_3.png" width=100/>
+</figure>
