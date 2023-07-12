@@ -15,7 +15,10 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 * Please put all dataset files under the `./data` directory.
 
 ## Reproducibility
-* Here we provide two examples (i.e., PEMS04 and PEMS08).
+* Here we provide one example PEMS04.
+* Run the shell scripts(`bash run.sh`)
+
+* If you want to try other datasets:
 * Change the `--dataset=PEMS04` or `--dataset=PEMS08` in the `.run.sh` file.
 * Change the num_nodes in the `./model/gode_rnn.conf` file. The default is the num_nodes of PEMS04.
 * Run the shell scripts(`bash run.sh`)
