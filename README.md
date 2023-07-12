@@ -5,9 +5,10 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 ![image](./pics/1.png)
 
 ## Dependencies
-> numpy==1.19.2
-> scipy==1.5.4
-> torch==1.7.1
+> python==3.8.10
+> numpy==1.21.2
+> scipy==1.10.1
+> torch==1.8.1
 > torchdiffeq==0.2.3
 
 ## Download datasets
