@@ -6,9 +6,13 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 
 ## Dependencies
 > python==3.8.10
+
 > numpy==1.21.2
+
 > scipy==1.10.1
+
 > torch==1.8.1
+
 > torchdiffeq==0.2.3
 
 ## Download datasets
