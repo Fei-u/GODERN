@@ -15,7 +15,7 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 * Please put all dataset files under the `./data` directory.
 
 ## Reproducibility
-* Here we provide one example PEMS04.
+* Here we provide the example: PEMS04.
 * Run the shell scripts(`bash run.sh`)
 
 If you want to try other datasets:
@@ -24,7 +24,8 @@ If you want to try other datasets:
 * Run the shell scripts(`bash run.sh`)
 
 ## Results
-* Here we provide the training process and results of PEMS04 under the `./runs` directory.
+* We provide the training process and results of PEMS04 under the `./runs` directory.
+* The loss of each horizon is as follows:
 
 
 
