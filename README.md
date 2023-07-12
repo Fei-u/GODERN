@@ -24,7 +24,7 @@ If you want to try other datasets:
 * Run the shell scripts(`bash run.sh`)
 
 ## Results
-* Here we provide the training process and results of the above two examples under the `./runs` directory.
+* Here we provide the training process and results of PEMS04 under the `./runs` directory.
 
 
 
