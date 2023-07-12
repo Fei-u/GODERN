@@ -69,7 +69,7 @@ args.add_argument('--num_layers', default=config['model']['num_layers'], type=in
 args.add_argument('--cheb_k', default=config['model']['cheb_order'], type=int)
 args.add_argument('--rnn_layers', default=config['model']['rnn_layers'], type=int)
 args.add_argument('--is_ode', default=config['model']['is_ode'], type=eval)
-args.add_argument('--is_aug', default=config['model']['is_aug'], type=eval)
+args.add_argument('--aug_type', default=config['model']['aug_type'], type=str)
 
 #train
 args.add_argument('--loss_func', default=config['train']['loss_func'], type=str)

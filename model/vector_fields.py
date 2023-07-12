@@ -41,9 +41,6 @@ class VectorField_g(torch.nn.Module):
         self.hidden_hidden_channels = hidden_hidden_channels
         self.num_hidden_layers = num_hidden_layers
         self.output_channels = self.hidden_channels
-        if not is_ode:
-            self.hidden_channels = hidden_channels-10
-            self.output_channels = hidden_channels-10
         self.linear_in = torch.nn.Linear(self.hidden_channels, hidden_hidden_channels)
         self.linear_out = torch.nn.Linear(hidden_hidden_channels, self.output_channels)
         self.cheb_k = cheb_k
@@ -51,7 +48,6 @@ class VectorField_g(torch.nn.Module):
         self.weights_pool2 = nn.Parameter(torch.zeros(embed_dim, cheb_k, hidden_hidden_channels, hidden_hidden_channels))
         self.bias_pool1 = nn.Parameter(torch.zeros(embed_dim, hidden_hidden_channels))
         self.bias_pool2 = nn.Parameter(torch.zeros(embed_dim, hidden_hidden_channels))
-
 
 
     def forward(self, t, z):
