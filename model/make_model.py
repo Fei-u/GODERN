@@ -1,5 +1,5 @@
 from vector_fields import *
-from gode_rnn import Model
+from GODERN import Model
 
 def make_model(args):
     if args.model_type == 'fc':
