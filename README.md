@@ -11,7 +11,7 @@ The PyTorch implementation of the paper "Learning Latent ODEs with Graph RNN for
 > torchdiffeq==0.2.3
 
 ## Download datasets
-* You can download the datasets from [here](https://github.com/laiguokun/multivariate-time-series-data).
+* You can download the datasets [here](https://github.com/laiguokun/multivariate-time-series-data).
 * Please put all dataset files under the `./data` directory.
 
 ## Reproducibility
